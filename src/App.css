@@ -58,3 +58,35 @@
   margin-top: -3.5rem;
   transform: translate(0px, 0px) skew(0deg, -2.5deg);
 }
+
+.show-projects{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ 
+}
+.project-1 {
+  background-color:white;
+  height: 15rem;
+  width: 30%;
+  border-radius: 120px;
+  margin-top: 20px;
+  transform: translate(0px, 0px) skew(0deg, 3deg);
+}
+.project-2 {
+  background-color:blue;
+  height: 15rem;
+  width: 30%;
+  border-radius: 120px;
+  margin-top: -20px;
+  transform: translate(0px, 0px) skew(0deg, 3deg);
+}
+
+.project-3 {
+  background-color:green;
+  height: 15rem;
+  width: 30%;
+  border-radius: 120px;
+
+  transform: translate(0px, 0px) skew(0deg, 3deg);
+}

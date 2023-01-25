@@ -30,10 +30,10 @@ const Hero = () => {
             <p> Here is some my work.....</p>
 
         </div>
-      </div>
-      <section className="projects">
 
-      </section>
+        
+      </div>
+    
     </>
   );
 };
