@@ -25,9 +25,11 @@ const Hero = () => {
         </nav>
         <div className="main">
 
-            <h1> Hello and Welcome to my website</h1>
-            <p>My name is Chinonso. Everyone calls me Nonso. I am a Frontend developer based in Lagos.<br/>Nigeria.</p>
-            <p> Here is some my work.....</p>
+            <h1> Hello and Welcome to my</h1>
+            <h1 className="web">Website.</h1>
+            <p>My name is Chinonso. Everyone calls me Nonso. I am a Frontend developer based in Lagos,</p>
+            <p>Nigeria.</p>
+            <p className="intro"> Here's some of my work.....</p>
 
         </div>
 
