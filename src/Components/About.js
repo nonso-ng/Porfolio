@@ -1,14 +1,25 @@
 import React from "react";
+import avatar from "../Assets/avatar.png"
+import {FaAddressCard} from "react-icons/fa"
 
 const About = () => {
   return (
-    <>
+    <div className="about">
       <div className="about-section">
-        <div className="about-img">ggfkfaf</div>
+        <div className="about-img">
 
-        <div className="about-me">lorem</div>
+            <img alt="" src={avatar}/>
+        </div>
+
+        <div className="about-me">
+            <div>
+                kkkkkkkkkkkkkkkkkkkkkkkk
+                <FaAddressCard/>
+            </div>
+
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

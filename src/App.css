@@ -196,11 +196,28 @@
 }
 
 /* STYLING OF ABOUT-ME SECTION */
+.about{
+  background-color: black;
+  
+}
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1300px;
   height: 120vh;
-  margin: 180px auto;
+  margin: -28px auto;
   background-color: antiquewhite;
 }
+
+.about-img{
+  margin-top: 250px;
+}
+.about-img img{
+  width: 15rem;
+  height: 15rem;
+  background-color: #66666e;
+  border-radius: 45%;
+  padding:30px 60px 30px 60px;
+}
+
+
