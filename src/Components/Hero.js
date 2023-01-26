@@ -30,7 +30,7 @@ const Hero = () => {
             <p>My name is Chinonso. Everyone calls me Nonso. I am a Frontend developer based in Lagos,</p>
             <p>Nigeria.</p>
             <p className="intro"> Here's some of my work.....</p>
-
+           
         </div>
 
         
