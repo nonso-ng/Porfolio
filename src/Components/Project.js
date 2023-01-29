@@ -2,6 +2,7 @@ import React from "react";
 import wallet from "../Assets/wallet.png";
 import react from "../Assets/atom.png";
 import cart from "../Assets/shopping-cart.png";
+import {FaBlackTie} from "react-icons/fa"
 
 const Project = () => {
   return (
@@ -57,7 +58,11 @@ const Project = () => {
         </div>
         <div className="resume">
           <div className="resume-left">
-            one part
+           <FaBlackTie/>
+            <h2>Get ready to bring your Ideas to life!</h2>
+            <p>I Can help you start something new, improve on old project or give them new directions</p>
+            <p>And i will make an excelent addition to your team.</p>
+            <h3><a href="../Assets/resume.pdf"alt="resume" target="_blank" download>   Check it my Resume!</a> </h3>
           </div>
           <div className="resume-right">
             two part

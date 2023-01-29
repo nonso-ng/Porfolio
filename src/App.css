@@ -197,13 +197,13 @@
 
 /* STYLING OF ABOUT-ME SECTION */
 .about{
-  background-color: black;
+  background-color:white
   
 }
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1300px;
+  max-width: 1200px;
   height: 120vh;
   margin: -28px auto;
   background-color: antiquewhite;
@@ -220,4 +220,51 @@
   padding:30px 60px 30px 60px;
 }
 
+.about-me{
+  margin-top:160px ;
+}
+
+.about-me div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: #FC7300;
+  background-color: #00425a;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.framework-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.frameworks{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.html{
+  width: 250px;
+  height: 250px;
+}
+.css{
+  width: 250px;
+  height: 250px;
+}
+.js{
+  width: 250px;
+  height: 250px;
+}
+.react{
+  width: 150px;
+  height: 150px;
+}
+.tailwind{
+  width: 150px;
+  height: 150px;
+}
 
