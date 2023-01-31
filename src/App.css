@@ -204,27 +204,28 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1200px;
-  height: 120vh;
+  height: 100vh;
   margin: -28px auto;
-  background-color: antiquewhite;
+  
 }
 
-.about-img{
-  margin-top: 250px;
-}
+
 .about-img img{
-  width: 15rem;
-  height: 15rem;
+  width: 25rem;
+  height: 30rem;
   background-color: #66666e;
-  border-radius: 45%;
-  padding:30px 60px 30px 60px;
+  border-radius: 15%;
+  margin-bottom: 60px;
+  margin-top: 130px;
+  
 }
 
 .about-me{
   margin-top:160px ;
+  font-family: "poppins";
 }
 
-.about-me div{
+.about-me .card{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,6 +235,15 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.about-me .lead{
+ padding-top: 10px;
+ padding-right: 30px;
+ font-family: "poppins";
+ font-weight: 400;
 }
 
 .framework-section{
@@ -241,30 +251,41 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+ 
+
+}
+.framework-section h1{
+  font-family: "poppins";
+  margin: 50px 0px 80px 0px;
 }
 .frameworks{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 150px;
 }
 .html{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 .css{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 .js{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 .react{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 .tailwind{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
+.vuejs{
+  width: 200px;
+  height: 200px;
+}
+
 
