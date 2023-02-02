@@ -314,5 +314,41 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
+.footer-content h2{
+ padding: 0px 0px 10px 50px;
+}
+.footer-content p{
+  padding: 0px 0px 30px 50px;
+}
+.footer-content div{
+  margin: 0px 0px 30px 40px;
+}
+.footer-content a{
+  color:#00425a;
+  margin: 10px;
+  font-size: x-large; 
+  outline: none;
+
+}
+.footer-right{
+  margin-right: 50px;
+}
+.footer-right button{
+  background-color: #00425a;
+  color: #FC7300;
+  border-radius: 20px;
+  border-style: none;
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  letter-spacing: 3px ;
+
+}
+.footer hr{
+ margin: auto 50px;
+
+}
+
 
