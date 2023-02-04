@@ -2,9 +2,8 @@ import React from "react";
 import wallet from "../Assets/wallet.png";
 import react from "../Assets/atom.png";
 import cart from "../Assets/shopping-cart.png";
-import code from "../Assets/tag.jpeg"
-import {FaBlackTie} from "react-icons/fa"
-
+import code from "../Assets/tag.jpeg";
+import { FaBlackTie } from "react-icons/fa";
 
 const Project = () => {
   return (
@@ -24,7 +23,6 @@ const Project = () => {
               target="_blank"
               rel="noreferrer"
             >
-           
               Check it out!!!
             </a>
           </div>
@@ -37,7 +35,6 @@ const Project = () => {
               target="_blank"
               rel="noreferrer"
             >
-             
               Do have a look!!!
             </a>
           </div>
@@ -53,30 +50,43 @@ const Project = () => {
               target="_blank"
               rel="noreferrer"
             >
-             
               Check it out!!!
             </a>
           </div>
         </div>
         <div className="resume">
           <div className="resume-left">
-          <div >
-          <FaBlackTie/>
-          </div>
+            <div>
+              <FaBlackTie />
+            </div>
             <h2>Get ready to bring your Ideas to life!</h2>
-            <p>I can help you start something new, improve on old project or give them new<br/> directions</p>
+            <p>
+              I can help you start something new, improve on old project or give
+              them new
+              <br /> directions
+            </p>
             <p>And i will make an excelent addition to your team.</p>
-            <h3><a href="../Assets/resume.pdf"alt="resume" target="_blank" download>   Check out my Resume!</a> </h3>
+            <h3>
+              <a
+                href="../Assets/resume.pdf"
+                alt="resume"
+                target="_blank"
+                download
+              >
+                {" "}
+                Check out my Resume!
+              </a>{" "}
+            </h3>
           </div>
           <div className="resume-right">
             <img alt="" src={code}></img>
             <div>
-              I code things from scratch using clean, readabale and reuseable codes.
+              I code things from scratch using clean, readabale and reuseable
+              codes.
             </div>
           </div>
         </div>
       </div>
-
     </>
   );
 };

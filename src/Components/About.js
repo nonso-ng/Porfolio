@@ -13,7 +13,7 @@ const About = () => {
     <div className="about">
       <div className="about-section">
         <div className="about-img">
-          <img alt="" src={profile}/>
+          <img alt="" src={profile} />
         </div>
 
         <div className="about-me">
@@ -23,9 +23,10 @@ const About = () => {
           <h2>About Me</h2>
 
           <p className="lead">
-            I'm a mission-driven front-end Web Developer based
-            in Lagos, Nigeria. With a passion for bringing thoughtful UI/Ux design to life.
-            I make use of current and efficient technologies like React Js and Vue js in breathing life into designs.
+            I'm a mission-driven front-end Web Developer based in Lagos,
+            Nigeria. With a passion for bringing thoughtful UI/Ux design to
+            life. I make use of current and efficient technologies like React Js
+            and Vue js in breathing life into designs.
           </p>
           <p className="lead">
             As a web developer/Designer, I enjoy using my obsessive attention to
@@ -34,7 +35,9 @@ const About = () => {
           </p>
           <p className="lead">
             I'm quietly confident, naturally curious, and perpetually working on
-            improving my skills one design problem at a time. I love listening to music, watching Documentaries,History and surfing Youtube generally.
+            improving my skills one design problem at a time. I love listening
+            to music, watching Documentaries,History and surfing Youtube
+            generally.
           </p>
         </div>
       </div>

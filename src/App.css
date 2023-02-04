@@ -187,63 +187,54 @@
 }
 
 .resume-right {
-  
-
   height: 50vh;
-
 }
 
-.resume-right img{
+.resume-right img {
   max-height: 250px;
- 
+
   border-radius: 10px;
 }
-.resume-right div{
+.resume-right div {
   background-color: #ef4444;
   max-width: 404px;
   border-radius: 0px 0px 10px 10px;
   height: 90px;
- margin-top: -24px;
- position: absolute;
- z-index: 2;
- padding:45px 20px 0px 20px;
- color: white;
+  margin-top: -24px;
+  position: absolute;
+  z-index: 2;
+  padding: 45px 20px 0px 20px;
+  color: white;
 }
-
-
 
 .resume-left {
- 
   height: 50vh;
 }
-.resume-left div{
- 
+.resume-left div {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: xx-large;
-  color: #FC7300;
+  color: #fc7300;
   background-color: #00425a;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
   margin-bottom: 30px;
 }
-.resume-left h2{
+.resume-left h2 {
   margin-bottom: 20px;
   letter-spacing: 4px;
 }
-.resume-left p{
+.resume-left p {
   margin-bottom: 15px;
 }
 
 /* STYLING OF ABOUT-ME SECTION */
-.about{
-  background-color:white;
+.about {
+  background-color: white;
   transform: translate(0px, 0px) skew(0deg, -2deg);
-  
-  
 }
 .about-section {
   display: grid;
@@ -252,147 +243,134 @@
   height: 100vh;
   margin: -28px auto;
   transform: translate(0px, 0px) skew(0deg, 2deg);
-  
 }
 
-
-.about-img img{
+.about-img img {
   width: 25rem;
   height: 30rem;
   background-color: #66666e;
   border-radius: 15%;
   margin-bottom: 60px;
   margin-top: 130px;
-  
 }
 
-.about-me{
-  margin-top:160px ;
+.about-me {
+  margin-top: 160px;
   font-family: "poppins";
 }
 
-.about-me .card{
+.about-me .card {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: xx-large;
-  color: #FC7300;
+  color: #fc7300;
   background-color: #00425a;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
 }
 
-.about-me .lead{
- padding-top: 10px;
- padding-right: 30px;
- font-family: "poppins";
- font-weight: 400;
+.about-me .lead {
+  padding-top: 10px;
+  padding-right: 30px;
+  font-family: "poppins";
+  font-weight: 400;
 }
 
-.framework-section{
+.framework-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-  transform: translate(0px, 0px) skew(0deg, 2deg);
-  
- 
 
+  transform: translate(0px, 0px) skew(0deg, 2deg);
 }
-.framework-section h1{
+.framework-section h1 {
   font-family: "poppins";
   margin: 50px 0px 80px 0px;
 }
-.frameworks{
+.frameworks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 150px;
   margin-bottom: 100px;
 }
-.html{
+.html {
   width: 200px;
   height: 200px;
 }
-.css{
+.css {
   width: 200px;
   height: 200px;
 }
-.js{
+.js {
   width: 200px;
   height: 200px;
 }
-.react{
+.react {
   width: 200px;
   height: 200px;
 }
-.tailwind{
+.tailwind {
   width: 200px;
   height: 200px;
 }
-.vuejs{
+.vuejs {
   width: 200px;
   height: 200px;
 }
-.footer{
+.footer {
   height: 50vh;
   width: 100%;
   background-color: #d4d4d8;
   margin-top: -30px;
   font-family: "poppins";
-
-  
 }
 
-.footer-top{
+.footer-top {
   display: flex;
   justify-content: space-between;
   padding-top: 10%;
 }
-.footer-bottom{
+.footer-bottom {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
-.footer-content h2{
- padding: 0px 0px 10px 50px;
+.footer-content h2 {
+  padding: 0px 0px 10px 50px;
 }
-.footer-content p{
+.footer-content p {
   padding: 0px 0px 30px 50px;
 }
-.footer-content div{
+.footer-content div {
   margin: 0px 0px 30px 40px;
 }
-.footer-content a{
-  color:#00425a;
+.footer-content a {
+  color: #00425a;
   margin: 10px;
-  font-size: x-large; 
+  font-size: x-large;
   outline: none;
-
 }
-.footer-right{
+.footer-right {
   margin-right: 50px;
 }
-.footer-right button{
+.footer-right button {
   background-color: #00425a;
-  color: #FC7300;
+  color: #fc7300;
   border-radius: 20px;
   border-style: none;
   height: 50px;
   width: 150px;
   margin-top: 20px;
-  letter-spacing: 3px ;
+  letter-spacing: 3px;
   font-weight: 400;
-
 }
-.footer hr{
- margin: auto 50px;
-
+.footer hr {
+  margin: auto 50px;
 }
-
-
